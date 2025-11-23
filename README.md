@@ -16,6 +16,14 @@ A clean and modern MERN authentication system built with a React frontend and Ex
 
 ---
 
+## 🖼️ Project Structure Screenshot
+
+<p align="center">
+  <img src="/mnt/data/Screenshot 2025-11-23 165754.png" alt="Project Structure" width="500" />
+</p>
+
+---
+
 ## 🚀 Tech Stack
 
 <p align="center">
@@ -28,42 +36,63 @@ A clean and modern MERN authentication system built with a React frontend and Ex
 
 ---
 
-## 📌 Project Overview
-This is a simple MERN login system demonstrating:
-- React frontend UI  
-- Express backend API  
-- Connecting frontend ↔ backend  
-- Dummy authentication without database  
-- Clean folder structure for MERN projects  
-- Fully deployed on Vercel + Render  
+## 📁 Folder Structure (Clean View)
 
----
-
-
-
-## 📂 Folder Structure
-
+```bash
 login-page/
 │
-├── backend/ # Express API
-│ ├── server.js
-│ └── package.json
+├── backend/              # Express API
+│   ├── node_modules/
+│   ├── server.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── .gitignore
 │
-└── frontend/ # React UI
-├── src/
-└── package.json
+└── frontend/             # React UI
+    ├── node_modules/
+    ├── public/
+    ├── src/
+    │   ├── App.js
+    │   ├── App.css
+    │   ├── index.js
+    │   └── components...
+    ├── package.json
+    ├── package-lock.json
+    └── .gitignore
+    
+## ▶️ Clone Repository
 
 git clone https://github.com/G-Sabari/login-page.git
 cd login-page
 
-## Run Frontend : 
+## Run Frontend
+
 cd frontend
 npm install
 npm start
 
-## Run Backend : 
+## Run Backend
+
 cd ../backend
 npm install
 node server.js
 
+##🌍 Deployment Info
 
+Frontend — Vercel
+
+Root Directory → frontend
+
+Build Command → npm run build
+
+Output Directory → build/
+
+Backend — Render
+
+Root Directory → backend
+
+Build Command → (empty)
+
+Start Command → node server.js
+
+Hosted on free tier
