@@ -10,12 +10,25 @@ A clean and modern MERN authentication system built with a React frontend and Ex
 </p>
 
 <p align="center">
+<<<<<<< HEAD
   <a href="https://mern-frontend-tau-neon.vercel.app/">
     <img src="https://img.shields.io/badge/Live_Frontend-Vercel-black?style=for-the-badge&logo=vercel" />
   </a>
   <a href="https://backend-ckm8.onrender.com/">
     <img src="https://img.shields.io/badge/Live_Backend-Render-blue?style=for-the-badge&logo=render" />
   </a>
+=======
+  <a href="https://login-page-self-seven.vercel.app/"><img src="https://img.shields.io/badge/Live_Frontend-Vercel-black?style=for-the-badge&logo=vercel" /></a>
+  <a href="https://backend-ckm8.onrender.com/"><img src="https://img.shields.io/badge/Live_Backend-Render-blue?style=for-the-badge&logo=render" /></a>
+</p>
+
+---
+
+## 🖼️ Project Structure Screenshot
+
+<p align="center">
+  <img src="/mnt/data/Screenshot 2025-11-23 165754.png" alt="Project Structure" width="500" />
+>>>>>>> 123147ed0c8f4f9c79303c5e64079833ebcde530
 </p>
 
 ---
@@ -32,23 +45,36 @@ A clean and modern MERN authentication system built with a React frontend and Ex
 
 ---
 
+<<<<<<< HEAD
 ## 📁 Folder Structure
+=======
+## 📁 Folder Structure (Clean View)
+>>>>>>> 123147ed0c8f4f9c79303c5e64079833ebcde530
 
 ```bash
 login-page/
 │
 ├── backend/              # Express API
+<<<<<<< HEAD
+=======
+│   ├── node_modules/
+>>>>>>> 123147ed0c8f4f9c79303c5e64079833ebcde530
 │   ├── server.js
 │   ├── package.json
 │   ├── package-lock.json
 │   └── .gitignore
 │
 └── frontend/             # React UI
+<<<<<<< HEAD
+=======
+    ├── node_modules/
+>>>>>>> 123147ed0c8f4f9c79303c5e64079833ebcde530
     ├── public/
     ├── src/
     │   ├── App.js
     │   ├── App.css
     │   ├── index.js
+<<<<<<< HEAD
     │   └── components/
     ├── package.json
     ├── package-lock.json
@@ -114,6 +140,33 @@ Backend runs at:
 🌍 Deployment Details
 Frontend → Vercel
 Live URL → https://mern-frontend-tau-neon.vercel.app/
+=======
+    │   └── components...
+    ├── package.json
+    ├── package-lock.json
+    └── .gitignore
+    
+## ▶️ Clone Repository
+
+git clone https://github.com/G-Sabari/login-page.git
+cd login-page
+
+## Run Frontend
+
+cd frontend
+npm install
+npm start
+
+## Run Backend
+
+cd ../backend
+npm install
+node server.js
+
+##🌍 Deployment Info
+
+Frontend — Vercel
+>>>>>>> 123147ed0c8f4f9c79303c5e64079833ebcde530
 
 Root Directory → frontend
 
@@ -121,6 +174,7 @@ Build Command → npm run build
 
 Output Directory → build/
 
+<<<<<<< HEAD
 Backend → Render
 Live URL → https://backend-ckm8.onrender.com/
 
@@ -153,3 +207,14 @@ MERN Stack Developer in Progress.
 Passionate about building clean, scalable full-stack applications 🚀
 
 <p align="center"> <img src="https://img.shields.io/badge/Thanks_for_Reading!-blue?style=for-the-badge" /> </p> ```
+=======
+Backend — Render
+
+Root Directory → backend
+
+Build Command → (empty)
+
+Start Command → node server.js
+
+Hosted on free tier
+>>>>>>> 123147ed0c8f4f9c79303c5e64079833ebcde530
